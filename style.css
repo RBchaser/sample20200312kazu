@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+/*_____________________________________________*/
+
+.header{
+    background-color:lightblue;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    height:50px;
+}
+
+.site-name{
+    padding:10px;
+    
+}
+
+
+.menu{
+    padding-right:10px;
+    
+}
+
+.hamburger{
+    height:30px;
+}
+
+/*_____________________________________________*/
+
+.view{
+    
+
+    background-image: url("imgs/sea.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:500px;
+    
+}
+
+.view p{
+    line-height: 500px;
+    text-align:center;
+    color:white;
+}
+
+/*_____________________________________________*/
+
+.profile{
+    padding:100px 0 100px 0;
+    text-align:center;
+    background-color:lightblue;
+    
+}
+.icon{
+    width:150px;
+    height:150px;
+    object-fit: cover;
+   
+    border:solid;
+}
+
+.sp{
+    padding:10px 0 10px 0;
+    display:inline-block;
+    width:50%;
+}
+
+/*_____________________________________________*/
+
+
+.hobby-wrapper{
+    padding:30px 0 30px 0;
+    height:300px;
+}
+
+.hobby-name h3{
+    text-align:center;
+}
+
+
+.hobby{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px 0 30px 0;
+}
+
+
+
+.piano{
+    width:33%;
+    text-align: center;
+    
+    
+    
+}
+
+.piano-img{
+    
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    object-fit: cover;
+    
+}
+
+/*_____________________________________________*/
+.sns-wrapper{
+    height:200px;
+    background-image: url("imgs/sea.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+   
+}
+
+
+.sns{
+    
+    
+    
+    
+   
+    
+    
+}
+
+
+
+.sns a{
+    text-decoration: none;
+    color:white;
+    background-color:red;
+    padding:10px;
+    border-radius:5px;
+    
+}
+
+.sns p{
+    margin-top: 10px;
+    
+}
+
+
+/*_____________________________________________*/
+
+.footer-wrapper{
+    background-color: lightblue;
+}
+
+.footer{
+    text-align:center;
+    padding:10px 0 10px 0;
+}
+
